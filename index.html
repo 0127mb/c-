@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+.yellow{background-color: #f6a663;}
+    body {
+ background: linear-gradient(to right, #f6a663, #ffd1a6);
+
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+   width: 499px;
+height:819px;
+opacity: 1;
+top: 100px;
+margin-right: 200px;
+
+
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    a{text-decoration: none; color:black }
+    header{display: flex; align-items: center; justify-content: space-around;} nav{display: flex; gap: 200px;}
+    h1{font-family: Sofia Sans;
+font-weight: 900px;
+font-style: Black;
+font-size: 76px;
+width: 613px;
+height: 104px;
+
+opacity: 1;
+
+line-height: 137%;
+letter-spacing: -1%;
+} main{display: flex; align-items: center;}
+.swiper-button-next{margin-left: 30px;}
+.swiper-button-prev{margin-right: 20px;}
+
+.green{background-color: green;
+
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;}
+
+
+  </style>
+</head>
+
+<body>
+
+
+    <header>    
+        <img src="./Logo (2).png" alt="">
+        <nav>
+            <a href="">shop</a>
+            <a href="">brands</a>
+            <a href="">contact us</a>    
+        </nav>
+        <button style="width: 168px;
+height: 64px;
+background: #1C1415;
+border: none;
+opacity: 1;
+left: 1250px;
+border-radius: 50px;
+padding-top: 14px;
+padding-right: 38px;
+padding-bottom: 14px;
+padding-left: 38px;
+gap: 10px; color: white;
+">sign up</button>
+    </header>
+
+</header>
+  <!-- Swiper -->
+ <Main>
+<div>
+<h1>Exquisite WatchesChoose Luxury, <span style="color: black;"> Choose Us</span></h1>
+
+
+</div>
+ <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./Watches.png" alt=""></div>
+      <div class="swiper-slide"><img src="./Watches (1).png" alt=""></div>
+      <div class="swiper-slide"><img src="./Watches (2).png" alt=""></div>
+      <div class="swiper-slide"><img src="./Watches (3).png" alt=""></div>
+ 
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+ </Main>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
